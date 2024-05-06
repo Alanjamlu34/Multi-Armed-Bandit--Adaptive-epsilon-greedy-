@@ -36,9 +36,18 @@ After conducting experiments and analyzing the performance of different algorith
   * A classic approach where users are randomly assigned to different ads, and their performance is measured.
   * Optimal Ad Type: While A/B testing provides a straightforward way to compare ads, it may not always identify the optimal ad type with high certainty.
   * Simplicity: A/B testing is simpler to set up and understand, making it a good choice for scenarios where complexity is a concern.
+- Epsilon Greedy:
+  * This algorithm balances exploration and exploitation by randomly selecting an ad with a certain probability (epsilon) and choosing the best-performing ad otherwise.
+  * Optimal Ad Type: Epsilon Greedy falls between the other two algorithms in terms of both performance and complexity.
+  *  Intermediate Difficulty: It offers a moderate level of complexity, making it a suitable choice for scenarios where a balance between simplicity and sophistication is desired.
 In summary, if you prefer a simpler approach and are willing to accept some uncertainty, A/B testing is a suitable choice. However, if you want a more sophisticated solution that adapts over time, Adaptive Epsilon Greedy is the way to go.
 
 Remember to adjust the parameters and evaluate the algorithms based on relevant metrics.
+> [!TIP] 
+> While all algorithms consistently identified Ad5 as the optimal ad type, it’s essential to consider the impact of randomness. Since the algorithms operate based on random exploration, we recommend running them for a large number of iterations (e.g., 500 iterations) and then averaging the results. By doing so, we can reduce the influence of occasional variations due to randomness.
+
+> [!IMPORTANT]
+> In some cases, the algorithms may yield slightly different results (e.g., identifying Ad8 as optimal a few times), but these differences are not statistically significant (occurring less than 5 times). Therefore, we can confidently eliminate such outliers.
 
 ## Acknowledgments
 Special thanks to the open-source community and the authors of relevant research papers.
