@@ -25,7 +25,7 @@ Run the notebooks in the notebooks/ directory to analyze the data and compare th
 Modify the parameters (e.g., epsilon, l,f, number of iteration/loop) in Jupyter File.ipynb as needed.
 Run the bandit algorithms using the provided data.
 Evaluate the performance of each algorithm using relevant metrics (e.g., click-through rate, conversion rate).
-# Determining Optimal Ad Type
+## Determining Optimal Ad Type
 To evaluate the performance of each algorithm, consider the following metrics:
 
 1. Total Click-Through Rate (CTR):
