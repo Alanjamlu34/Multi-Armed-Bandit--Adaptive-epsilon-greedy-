@@ -18,7 +18,10 @@ This project focuses on implementing and comparing three different algorithms fo
 ```
 ## Getting Started
 Clone this repository to your local machine.
-Install the required libraries using pip install -r requirements.txt.
+Install the required libraries using 
+```
+pip install -r requirements.txt.
+```
 Explore the data in Ads_CTR_Optimisation.csv to understand the ad performance metrics.
 Run the notebooks in the notebooks/ directory to analyze the data and compare the algorithms.
 ## Usage
